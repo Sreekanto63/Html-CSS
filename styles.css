@@ -1,0 +1,155 @@
+/* Custom font for all text */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the heading */
+  h1 {
+    color: #3366cc;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  /* Styling for the container */
+  .container {
+    background-color: #c7bec0;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+  }
+  
+  /* Styling for the table */
+  table {
+    background-color: #e6e6e6;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Styling for table cells */
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  /* Styling for table header row */
+  th {
+    background-color: #3366cc;
+    color: #fff;
+    padding: 8px;
+  }
+  
+  /* Hover effect for table rows */
+  tbody tr:hover {
+    background-color: #349e38;
+  }
+  
+  /* Styling for the first list item */
+  ul li:first-child {
+    font-weight: bold;
+  }
+  
+  /* Styling for the image */
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Styling for specific table cells */
+  tbody tr td:first-child {
+    background-color: #86a9b4;
+  }
+  
+  tbody tr:last-child td {
+    background-color: #ccffcc;
+  }
+
+
+  /* CSS Variables */
+  :root {
+    --primary-color: #3366cc;
+    --secondary-color: #f0f0f0;
+    --heading-color: #333;
+    --link-color: #3366cc;
+    --link-hover-color: #ff9900;
+    --container-width: 500px;
+    --container-height: 400px;
+    --table-border-color: #ccc;
+    --table-row-hover-color: #f9f9f9;
+    --list-item-color: #333;
+    --image-width: 200px;
+    --image-height: 200px;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the heading */
+  h1 {
+    color: var(--heading-color);
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Styling for links */
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: var(--link-hover-color);
+  }
+  
+  /* Styling for the container */
+  .container {
+    background-color: var(--secondary-color);
+    width: var(--container-width);
+    height: var(--container-height);
+    padding: 20px;
+  }
+  
+  /* Styling for the table */
+  table {
+    background-color: var(--secondary-color);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Styling for table cells */
+  td {
+    border: 1px solid var(--table-border-color);
+    padding: 8px;
+  }
+  
+  /* Styling for table header row */
+  th {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 8px;
+  }
+  
+  /* Hover effect for table rows */
+  tbody tr:hover {
+    background-color: var(--table-row-hover-color);
+  }
+  
+  /* Styling for the first list item */
+  ul li:first-child {
+    color: var(--list-item-color);
+    font-weight: bold;
+  }
+  
+  /* Styling for the image */
+  img {
+    width: var(--image-width);
+    height: var(--image-height);
+  }
+  
+  /* ::before pseudo-element */
+  p::before {
+    content: "🌟 ";
+  }
